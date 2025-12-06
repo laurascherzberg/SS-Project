@@ -6,10 +6,19 @@
             1
         ],
         "sink": [
-            "e",
+            "c",
             2
         ],
         "flows": [
+            [
+                "explicit",
+                [
+                    [
+                        "f",
+                        2
+                    ]
+                ]
+            ],
             [
                 "explicit",
                 []
@@ -23,10 +32,41 @@
             1
         ],
         "sink": [
-            "c",
+            "e",
             2
         ],
         "flows": [
+            [
+                "explicit",
+                [
+                    [
+                        "f",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "vulnerability": "A_3",
+        "source": [
+            "b",
+            1
+        ],
+        "sink": [
+            "e",
+            3
+        ],
+        "flows": [
+            [
+                "explicit",
+                [
+                    [
+                        "f",
+                        2
+                    ]
+                ]
+            ],
             [
                 "explicit",
                 []
@@ -46,24 +86,25 @@
         "flows": [
             [
                 "explicit",
-                []
-            ]
-        ]
-    },
-    {
-        "vulnerability": "A_3",
-        "source": [
-            "b",
-            1
-        ],
-        "sink": [
-            "e",
-            3
-        ],
-        "flows": [
+                [
+                    [
+                        "e",
+                        2
+                    ],
+                    [
+                        "d",
+                        2
+                    ]
+                ]
+            ],
             [
                 "explicit",
-                []
+                [
+                    [
+                        "d",
+                        2
+                    ]
+                ]
             ]
         ]
     }

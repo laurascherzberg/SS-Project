@@ -1,5 +1,39 @@
 [
     {
+        "vulnerability": "A_1",
+        "source": [
+            "b",
+            1
+        ],
+        "sink": [
+            "z",
+            4
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    },
+    {
+        "vulnerability": "A_2",
+        "source": [
+            "f",
+            4
+        ],
+        "sink": [
+            "z",
+            4
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    },
+    {
         "vulnerability": "B_1",
         "source": [
             "b",
@@ -12,21 +46,13 @@
         "flows": [
             [
                 "explicit",
-                []
-            ]
-        ]
-    },
-    {
-        "vulnerability": "A_1",
-        "source": [
-            "b",
-            1
-        ],
-        "sink": [
-            "z",
-            4
-        ],
-        "flows": [
+                [
+                    [
+                        "e",
+                        3
+                    ]
+                ]
+            ],
             [
                 "explicit",
                 []
