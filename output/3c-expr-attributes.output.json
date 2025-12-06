@@ -1,1 +1,87 @@
-[]
+[
+    {
+        "vulnerability": "A_1",
+        "source": [
+            "b",
+            2
+        ],
+        "sink": [
+            "a",
+            2
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    },
+    {
+        "vulnerability": "A_2",
+        "source": [
+            "c",
+            2
+        ],
+        "sink": [
+            "a",
+            2
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    },
+    {
+        "vulnerability": "A_3",
+        "source": [
+            "m",
+            2
+        ],
+        "sink": [
+            "a",
+            2
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    },
+    {
+        "vulnerability": "B_1",
+        "source": [
+            "b",
+            2
+        ],
+        "sink": [
+            "f",
+            2
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    },
+    {
+        "vulnerability": "B_2",
+        "source": [
+            "c",
+            2
+        ],
+        "sink": [
+            "f",
+            2
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    }
+]

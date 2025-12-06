@@ -102,7 +102,7 @@ def discover_tests(base_dir):
 def main():
     print("🚀 Scanning for tests...")
     
-    ANALYSER = "Laura_py_analyser.py"
+    ANALYSER = "py_analyser.py"
     VALIDATE = "validate.py"
     SLICES_DIR = "slices"
     
