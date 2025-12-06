@@ -1,0 +1,19 @@
+[
+    {
+        "vulnerability": "C_1",
+        "source": [
+            "a",
+            7
+        ],
+        "sink": [
+            "e",
+            7
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    }
+]
