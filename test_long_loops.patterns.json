@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "DeepTaint",
+        "sources": ["user_data"],
+        "sanitizers": ["validate"],
+        "sinks": ["execute"],
+        "implicit": "no"
+    }
+]

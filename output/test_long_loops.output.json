@@ -1,0 +1,19 @@
+[
+    {
+        "vulnerability": "DeepTaint_1",
+        "source": [
+            "user_data",
+            1
+        ],
+        "sink": [
+            "execute",
+            7
+        ],
+        "flows": [
+            [
+                "explicit",
+                []
+            ]
+        ]
+    }
+]
